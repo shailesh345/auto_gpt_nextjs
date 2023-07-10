@@ -49,9 +49,9 @@ export const getTaskStatusIcon = (
 
   switch (message.type) {
     case MESSAGE_TYPE_GOAL:
-      return <FaStar className="text-yellow-300" />;
+      return <FaStar className="text-sky-300" />;
     case MESSAGE_TYPE_ERROR:
-      return <FaExclamationTriangle className="text-yellow-400" />;
+      return <FaExclamationTriangle className="text-sky-400" />;
   }
 
   if (getTaskStatus(message) === TASK_STATUS_STARTED) {

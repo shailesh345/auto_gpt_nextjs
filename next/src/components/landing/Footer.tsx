@@ -18,17 +18,13 @@ const Footer = (props: Props) => {
           </div>
           <div className="flex flex-1 justify-center">
             <div className="flex flex-col gap-6 px-8 text-center text-gray-400 sm:-translate-y-1/2 sm:flex-row sm:text-left md:tracking-wider">
-              <a
-                className="text-bold text-center"
-                href="https://www.ycombinator.com/companies/reworkd/jobs"
-                target="_blank"
-              >
+              <a className="text-bold text-center" href="#" target="_blank">
                 Careers
               </a>
-              <a className="text-center" href="https://reworkd.ai/privacyPolicy" target="_blank">
+              <a className="text-center" href="#" target="_blank">
                 Privacy Policy
               </a>
-              <a className="text-center" href="https://reworkd.ai/terms" target="_blank">
+              <a className="text-center" href="#" target="_blank">
                 Terms & Conditions
               </a>
             </div>
@@ -51,15 +47,10 @@ const Footer = (props: Props) => {
         </div>
         <div className="mb-4 mt-16 w-full border-t border-gray-700/50 sm:mt-4" />
         <div className="flex flex-col gap-4">
-          <BannerBadge
-            href="https://www.ycombinator.com/companies/reworkd/jobs"
-            className="hidden sm:flex"
-          >
+          <BannerBadge href="#" className="hidden sm:flex">
             {"Interested in AI Agents? We're Hiring!"}
           </BannerBadge>
-          <span className="w-full text-xs text-gray-400 sm:text-left">
-            &#169;2023 Reworkd AI, Inc.
-          </span>
+          <span className="w-full text-xs text-gray-400 sm:text-left">&#169;2023 Ai Clone.</span>
         </div>
       </div>
     </footer>

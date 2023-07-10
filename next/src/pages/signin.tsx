@@ -28,7 +28,7 @@ const SignIn = ({ providers }: { providers: Provider }) => {
   return (
     <>
       <Head>
-        <title>Sign in - AgentGPT</title>
+        <title>Sign in - AiClone</title>
       </Head>
 
       <div className="radial-background-1 grid h-screen w-screen place-items-center bg-black">
@@ -39,20 +39,15 @@ const SignIn = ({ providers }: { providers: Provider }) => {
             className="flex flex-col items-center justify-center gap-6 text-white"
           >
             <div className="flex flex-row gap-6">
-              <Image
-                src="logos/dark-default-gradient.svg"
-                width="56"
-                height="56"
-                alt="Reworkd AI"
-              />
+              <Image src="logos/dark-default-gradient.svg" width="56" height="56" alt="AIClone" />
               <h1
                 className={`${clsx(
                   "bg-gradient-to-br from-white via-neutral-300 to-neutral-500 bg-clip-text text-transparent",
                   "text-center text-3xl font-bold leading-[1.1em] tracking-[-0.64px] md:text-5xl"
                 )}`}
               >
-                <span className="hidden sm:flex">Welcome to AgentGPT</span>
-                <span className="flex sm:hidden">AgentGPT</span>
+                <span className="hidden sm:flex">Welcome to AIClone</span>
+                <span className="flex sm:hidden">AiClone</span>
               </h1>
             </div>
           </FadeIn>

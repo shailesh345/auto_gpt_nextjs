@@ -9,14 +9,15 @@ const AppTitle = () => {
   return (
     <div id="title" className="relative flex flex-col items-center font-mono">
       <div className="flex flex-row items-start">
-        <span className="text-4xl font-bold text-[#C0C0C0] xs:text-5xl sm:text-6xl">Ai</span>
-        <span className="text-4xl font-bold text-white xs:text-5xl sm:text-6xl">Clone</span>
+        {/* <span className="text-xl font-bold text-[#C0C0C0] xs:text-xl sm:text-xl">Ai</span>
+        <span className="text-xl font-bold text-white xs:text-xl sm:text-xl">Clone</span>
+         */}
         <PopIn delay={0.5}>
           <Badge colorClass="bg-gradient-to-t from-sky-500 to-sky-600 border-2 border-white/20">
-            {i18n?.t("BETA", {
+            {i18n?.t("AiClone.me", {
               ns: "indexPage",
             })}
-            &nbsp;🚀
+            &nbsp;
           </Badge>
         </PopIn>
       </div>

@@ -28,14 +28,14 @@ export default function HelpDialog() {
     >
       <div>
         <p>
-          <strong>AgentGPT</strong> {t("INTRODUCING_AGENTGPT", { ns: "help" })}
+          <strong>Ai Clone</strong> {t("INTRODUCING_AGENTGPT", { ns: "help" })}
         </p>
         <br />
         <div>
           {t("TO_LEARN_MORE_ABOUT_AGENTGPT", {
             ns: "help",
           })}
-          <a href="https://docs.reworkd.ai" className="text-sky-500">
+          <a href="#" className="text-sky-500">
             {t("AGENTGPT_DOCUMENTATION", { ns: "help" })}
           </a>
         </div>
@@ -44,24 +44,19 @@ export default function HelpDialog() {
         <div className="mt-4 flex w-full items-center justify-center gap-5">
           <div
             className="cursor-pointer rounded-full bg-black/30 p-3 hover:bg-black/70"
-            onClick={() => window.open("https://discord.gg/jdSBAnmdnY", "_blank")}
+            onClick={() => window.open("#", "_blank")}
           >
             <FaDiscord size={30} />
           </div>
           <div
             className="cursor-pointer rounded-full bg-black/30 p-3 hover:bg-black/70"
-            onClick={() =>
-              window.open(
-                "https://twitter.com/asimdotshrestha/status/1644883727707959296",
-                "_blank"
-              )
-            }
+            onClick={() => window.open("#", "_blank")}
           >
             <FaTwitter size={30} />
           </div>
           <div
             className="cursor-pointer rounded-full bg-black/30 p-3 hover:bg-black/70"
-            onClick={() => window.open("https://github.com/reworkd/AgentGPT", "_blank")}
+            onClick={() => window.open("#", "_blank")}
           >
             <FaGithub size={30} />
           </div>

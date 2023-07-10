@@ -32,13 +32,13 @@ const Sidebar = ({ show, setShow }: SidebarProps) => {
     <SidebarTransition show={show}>
       <nav className="background-color-1 flex flex-1 flex-col px-2.5 py-2 ring-1 ring-white/10">
         <div className="flex flex-row items-center justify-between">
-          <Image
+          {/* <Image
             src="logos/dark-default-solid.svg"
             width="25"
             height="25"
-            alt="Reworkd AI"
+            alt="AI Clone"
             className="ml-2 invert dark:invert-0"
-          />
+          /> */}
           <h1 className="text-color-primary font-mono font-extrabold">My Agents</h1>
           <button
             className="neutral-button-primary rounded-md border-none transition-all"

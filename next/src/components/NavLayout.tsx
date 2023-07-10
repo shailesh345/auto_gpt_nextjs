@@ -8,9 +8,9 @@ import Footer from "./landing/Footer";
 
 const navigation = [
   { name: "Home", href: "#" },
-  { name: "Pricing", href: "https://agentgpt.reworkd.ai/plan" },
-  { name: "Roadmap", href: "https://github.com/orgs/reworkd/projects/3" },
-  { name: "Docs", href: "https://docs.reworkd.ai/" },
+  { name: "Pricing", href: "#" },
+  { name: "Roadmap", href: "#" },
+  { name: "Docs", href: "#" },
 ];
 
 export default function NavLayout({ children }: { children: ReactNode }) {

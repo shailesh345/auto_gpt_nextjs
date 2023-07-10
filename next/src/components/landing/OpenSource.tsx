@@ -26,7 +26,7 @@ const OpenSource = () => {
                 "<body>\n" +
                 "  <h1>Welcome to AgentGPT!</h1>\n" +
                 "  <p>Explore the power of autonomous AI agents.</p>\n" +
-                '  <script src="https://agentgpt.reworkd.ai/agentgpt.js"></script>\n' +
+                '  <script src="#"></script>\n' +
                 "  <script>\n" +
                 "    // Connect to AgentGPT API\n" +
                 "    const agent = new AgentGPT();\n" +
@@ -75,10 +75,10 @@ const OpenSource = () => {
             every step of the journey.
           </p>
           <div className="mt-6 flex flex-row gap-4">
-            <a href="https://github.com/reworkd" target="_blank">
+            <a href="#" target="_blank">
               <PrimaryButton>View on Github</PrimaryButton>
             </a>
-            <a href="https://github.com/orgs/reworkd/projects/3" target="_blank">
+            <a href="#" target="_blank">
               <PrimaryButton outline>Public Roadmap</PrimaryButton>
             </a>
           </div>

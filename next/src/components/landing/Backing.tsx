@@ -7,7 +7,7 @@ const Backing = () => {
       <div className="flex flex-row items-center gap-1 font-thin tracking-wide text-gray-400">
         <a
           className="flex cursor-pointer flex-row items-center gap-1 transition-transform duration-300 hover:-translate-x-0.5 hover:scale-105"
-          href="https://www.ycombinator.com/companies/reworkd"
+          href="#"
           target="_blank"
         >
           <div className="relative">
@@ -25,7 +25,7 @@ const Backing = () => {
           href="https://www.panache.vc/"
           target="_blank"
         >
-          Panache Ventures
+          -
         </a>
       </div>
     </div>
